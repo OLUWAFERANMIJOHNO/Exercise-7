@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#green{
+    grid-column: span 3;
+}
+#yellow{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+#red{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+#blue{
+    grid-column: span 1;
+    grid-row: span 2;   
+}
+#orange{
+    grid-column: span 2;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+li{
+    flex-basis: 6ch;
+}
